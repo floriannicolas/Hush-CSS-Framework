@@ -1,0 +1,84 @@
+/* Here an example for your custom css
+----------------------------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,500,600');
+
+/* Fonts
+----------------------------------------------------------------------------------------*/
+
+html, body {
+    line-height: 1.2;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+.font-work-sans-400 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+.font-work-sans-500 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+}
+
+.font-work-sans-600 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+}
+
+/* Placeholder
+--------------*/
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder { /* WebKit browsers */
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    color: #b5b5b5;
+}
+
+input:-moz-placeholder,
+textarea:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    color: #b5b5b5;
+    opacity: 1;
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder { /* Mozilla Firefox 19+ */
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    color: #b5b5b5;
+    opacity: 1;
+}
+
+.placeholder {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    color: #b5b5b5 !important;
+}
+
+/* Color
+----------------------------------------------------------------------------------------*/
+
+
+.color-e1e1e1 {
+    color: #e1e1e1;
+}
+
+.color-b5b5b5 {
+    color: #b5b5b5;
+}
+
+.color-fd3e7b {
+    color: #fd3e7b;
+}
+
+.color-2a2a44 {
+    color: #2a2a44;
+}
+
+
+/* End of file
+----------------------------------------------------------------------------------------*/
